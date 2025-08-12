@@ -61,6 +61,7 @@ Use the `run.bat` file and Windows Task Scheduler to execute the scraper daily:
 cd /d "D:\Python\Projekty python\PythonProject"
 call .venv\Scripts\activate
 python main.py
+pause
 ```
 
 ## 📊 Chart Example
