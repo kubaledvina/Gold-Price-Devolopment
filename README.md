@@ -2,13 +2,13 @@
 
 This project automatically fetches the current gold price from the internet, saves it into a CSV file, and displays a price trend chart using a Flask web application.
 
-## 📌 Features
+##  Features
 - **Scraper** – fetches the current gold price from [Business Insider](https://markets.businessinsider.com/commodities/gold-price)
 - **Automatic Saving** – stores date and price in `gold_price.csv`
 - **Flask Web Application** – displays a chart of gold price development
 - **Automatic Execution** – `.bat` file for scheduled daily runs
 
-## 📂 Project Structure
+##  Project Structure
 ```
 PythonProject/
 │
@@ -24,7 +24,7 @@ PythonProject/
 └── .venv/               # Virtual environment
 ```
 
-## ⚙ Installation & Usage
+##  Installation & Usage
 
 1. **Clone the repository**
    ```bash
@@ -54,7 +54,7 @@ PythonProject/
    ```
    Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
-## 🔄 Automatic Execution
+##  Automatic Execution
 Use the `run.bat` file and Windows Task Scheduler to execute the scraper daily:
 ```bat
 @echo off
